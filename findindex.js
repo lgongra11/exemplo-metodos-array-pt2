@@ -30,3 +30,13 @@ const usuarios = [
 ];
 
 const indiceDiego = usuarios.findIndex((u) => u.id === 25);
+
+console.log("Índice do usuário ID 25:", indiceDiego);
+console.log("Elemento encontrado na posição:", usuarios[indiceDiego]);
+console.log("\n");
+
+//------------------------------------------------------------------------------
+// Exemplo 3 (Back-End Real): Exclusão em rota DELETE /produtos/:id com splice()
+//------------------------------------------------------------------------------
+
+console.log(" --- Exemplo 3: Remover item do banco simulado (Back-End Real) --- ");
